@@ -1,0 +1,80 @@
+// 按钮，标签
+.btn, .label{
+	display: inline-block;
+	background-color: $topic-pure-color;
+	color: #FFFFFF;
+}
+
+// 大小
+.small-btn {
+	padding: 5rpx 6rpx;
+	border-radius: 10rpx;
+}
+.large-btn {
+	padding: 15rpx 26rpx;
+	border-radius: 18rpx;
+}
+.small-label{
+	padding: 10rpx 12rpx;
+	border-radius: 16rpx 12rpx 12rpx 0;
+	font-size: 22rpx;
+	letter-spacing: 4rpx;
+	line-height: 30rpx;
+}
+.large-label {
+	padding: 20rpx 20rpx;
+	border-radius: 32rpx 14rpx 14rpx 0;
+	font-size: 35rpx;
+	letter-spacing: 4rpx;
+	line-height: 30rpx;
+}
+
+
+// ------------------ 新拟态图标 ----------------------
+.mimicry-box {
+	background: #ffffff;
+	box-shadow:  10rpx 10rpx 26rpx #c9c9c9,
+	             -10rpx -10rpx 26rpx #ffffff;
+}
+.mimicry-box:hover {
+	background: #ffffff;
+	box-shadow: inset 10rpx 10rpx 26rpx #c9c9c9,
+	            inset -10rpx -10rpx 26rpx #ffffff;
+}
+
+
+// 盒子居中
+.center-box {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.flex {
+	display: flex;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+// 子元素左右分布
+.flex-space-bewteen {
+	display: flex;
+	justify-content: space-between;
+}
+.flex-space-space-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
